@@ -1,4 +1,10 @@
 # Microsoft Fabric Items Retrieval and Management System
+[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 - This project provides a system for efficiently retrieving Microsoft Fabric items, tracking changes over time, validating data quality, enabling incremental refreshes, and setting up alerts for significant changes. 
 - The system is designed to minimize Capacity Unit usage and is implemented as a Python notebook.
 
