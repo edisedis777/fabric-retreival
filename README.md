@@ -8,7 +8,7 @@
 This project provides two Python notebooks for retrieving and managing Microsoft Fabric items efficiently, with minimal Capacity Unit usage. The notebooks are:
 1. retrieval.ipynb: A comprehensive system for retrieving Fabric items, tracking changes, validating data quality, enabling incremental refreshes, and setting up alerts.
 2. simple-retrieval.ipynb: A simplified version focused on basic retrieval and storage of Fabric items in Delta format.
-Both notebooks are designed to optimize resource usage compared to Spark notebooks and store data in Delta format for efficient analysis.
+- Both notebooks are designed to optimize resource usage compared to Spark notebooks and store data in Delta format for efficient analysis.
 
 ### Common Notes
 - Dataflow Gen2 Exclusion: As of March 2025, Dataflow Gen2 is not included in the Fabric items retrieved by either notebook.
@@ -17,7 +17,7 @@ Both notebooks are designed to optimize resource usage compared to Spark noteboo
 
 ## Notebooks
 1. retrieval.ipynb - Comprehensive Retrieval and Management
-This notebook provides a full-featured system for managing Microsoft Fabric items.
+- This notebook provides a full-featured system for managing Microsoft Fabric items.
 
 ### Features
 - Efficient Retrieval: Retrieves Fabric items with minimal Capacity Unit usage.
@@ -48,7 +48,7 @@ This notebook provides a full-featured system for managing Microsoft Fabric item
 
 ### Configuration
 #### For retrieval.ipynb
-The system is configured via a config dictionary in the notebook. Key settings include:
+- The system is configured via a config dictionary in the notebook. Key settings include:
 
 - API and Authentication Settings:
 - key_vault_url: Azure Key Vault URL.
@@ -61,7 +61,7 @@ The system is configured via a config dictionary in the notebook. Key settings i
 - Data Quality Thresholds: Minimum items, required fields, valid item types.
 
 #### For simple-retrieval.ipynb
-Configuration is simpler and embedded in the code:
+- Configuration is simpler and embedded in the code:
 
 - Authentication: Uses Azure Key Vault for tenantid, powerbi-applicationid, and powerbi-clientsecret.
 - Storage: Saves raw JSON to Files/Fabric_Items/ and Delta tables to /lakehouse/default/Tables/.
@@ -93,7 +93,7 @@ Both notebooks store data in Delta format:
 - simple-retrieval.ipynb: No unit tests included.
 
 ### Contributing
-Contributions are welcome! Submit pull requests or issues via GitHub.
+- Contributions are welcome! Submit pull requests or issues via GitHub.
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+- This project is licensed under the MIT License. See the LICENSE file for details.
