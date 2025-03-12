@@ -95,5 +95,8 @@ Both notebooks store data in Delta format:
 ### Contributing
 - Contributions are welcome! Submit pull requests or issues via GitHub.
 
+###Credits
+- Inspired by: https://www.fourmoo.com/2025/03/11/how-to-get-all-your-fabric-items-using-python-only-notebook/
+
 ### License
 - This project is licensed under the MIT License. See the LICENSE file for details.
