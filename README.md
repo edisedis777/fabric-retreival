@@ -11,7 +11,7 @@ This project provides two Python notebooks for retrieving and managing Microsoft
 - Both notebooks are designed to optimize resource usage compared to Spark notebooks and store data in Delta format for efficient analysis.
 
 ### Common Notes
-- Dataflow Gen2 Exclusion: As of March 2025, Dataflow Gen2 is not included in the Fabric items retrieved by either notebook.
+- Dataflow Gen2 Exclusion: Dataflow Gen2 is not included in the Fabric items retrieved by either notebook.
 - Scope Limitation: These notebooks only retrieve Fabric Items, not Power BI Items.
 - Efficiency: Using Python notebooks consumes significantly fewer Capacity Units than Spark notebooks.
 
